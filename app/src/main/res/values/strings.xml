@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">XiangMu</string>
+
+    <string name="api_error_msg">网络请求数据出现异常</string>
+
+
+    <!--FragmentActiity-->
+    <string name="main_rb">主页</string>
+    <string name="main_rb2">我的</string>
+
+</resources>

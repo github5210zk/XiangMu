@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zk.xiangmu.activitys.Main_Activity">
+
+    <FrameLayout
+        android:id="@+id/mMain_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+
+    <android.support.v4.app.FragmentTabHost
+        android:id="@+id/mMain_host"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"></android.support.v4.app.FragmentTabHost>
+
+
+    <RadioGroup
+        android:id="@+id/mMain_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/mMain_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawablePadding="4dp"
+            android:drawableTop="@drawable/rg_profile"
+            android:gravity="center"
+            android:text="@string/main_rb"
+            android:textColor="@drawable/rg_textcolor"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/mMain_rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="false"
+            android:drawablePadding="4dp"
+            android:drawableTop="@drawable/rg_profile2"
+            android:gravity="center"
+            android:text="@string/main_rb2"
+            android:textColor="@drawable/rg_textcolor"
+            android:textSize="16sp" />
+
+
+    </RadioGroup>
+
+
+</LinearLayout>

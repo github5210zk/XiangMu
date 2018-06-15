@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MvpTest3</string>
+    <string name="api_error_msg">网络请求数据出现异常</string>
+
+</resources>
